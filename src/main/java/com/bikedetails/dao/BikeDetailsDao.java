@@ -14,6 +14,7 @@ public class BikeDetailsDao {
 	BikeDetailsRepository bdr;
 	public String ad(List<BikeDetails> c) {
 		 bdr.saveAll(c);
+		 System.out.println("welcome");
 		 return "saved pingu";
 	}
 
